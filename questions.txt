@@ -1,0 +1,38 @@
+2. Make a copy of 02HelloName from last week and modify it so that if the name entered is
+“Chris Walshaw”, the output is changed to “Hello Chris Walshaw, COMP1753 module
+leader”. Any other name (including a misspelling of “Chris Walshaw”) should result in the
+same output as previously, i.e. “Hello [name]” where [name] is the name input by the user.
+
+
+3. Make a copy of 05HelloNames from last week and modify it so that if the first name entered
+is “Chris” and the last name is “Walshaw”, the output is changed to “Hello Chris Walshaw,
+COMP1753 module leader”. Any other first / last names (including a misspellings) should
+result in the same output as previously, i.e. “Hello [first_name] [last_name]” where
+[first_name] & [last_name] are the names input by the user.
+
+
+4. Make a copy of 05Calculator_ifElifElse from this week. There is a problem in that if the user
+inputs 0 for the second number and selects the divide operation, the program crashes with
+an error (because you can’t divide by 0). Modify it so that the code validates the input by
+checking for this problem: if the user does input 0 for the second number and selects the
+divide operation, the code should output the message “Answer: you can’t divide by zero.”
+[Note: this is quite hard – do your best.]
+
+
+5. Make a copy of 14Concessions_orOperators (or one of the other programs which offers 20%
+discounts) and modify it so that if the user’s name is “Chris”, the user automatically gets a
+30% discount regardless of whether they are a student or what their age is.
+
+
+6. Write a program which gives the output “Hello [name], your lucky number is [number]”,
+where [name] is the name input by the user and [number] is a randomly generated number
+between 1 and 10. Modify it so that if the lucky number happens to be 3 or 9 it also says
+“and you have won a prize” and if the lucky number happens to be 7 it says “and you have
+hit the jackpot”.
+a. Do the modifications just using if statements
+b. Do the modifications using if and elif statements and the or operator
+
+
+7. Write a turtle graphics program which asks the user which shape they want. If they respond
+with “triangle” it should draw a triangle, if they say “square” it should draw a square. Include
+some validation to check that the user’s input is recognised and output a warning if not.
